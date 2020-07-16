@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #06031d;
+    background: #000000;
 }
 
 .play {
@@ -14,7 +14,7 @@ body {
 .bday {
     margin-top: 80px;
     text-align: center;
-    background: linear-gradient(180deg, #f80112 0%, #2602f5 110%);
+    background: linear-gradient(180deg, #f0d2d6 0%, #00BFFF 110%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -27,7 +27,7 @@ body {
     margin-left: 150px;
     margin-top: 60px;
     text-align: center;
-    background: linear-gradient(180deg, #f80112 0%, #2602f5 110%);
+    background: linear-gradient(180deg, #f0d2d6 0%, #00BFFF 110%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -59,8 +59,8 @@ body {
 
 .single-img {
     position: absolute;
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
     top: 10px;
     left: 10px;
 }
@@ -96,7 +96,6 @@ body {
 }
 
 img {
-    filter: grayscale(90%);
     transition: 1s;
     cursor: pointer;
 }
